@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "linkedin-crawler"
+version = "0.1.0"
+description = ""
+authors = ["Fred Campos <fred.tecnologia@gmail.com>"]
+license = "GPL v3"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.1"
+lxml = "^4.6.2"
+requests = "^2.25.1"
+selenium = "^3.141.0"
+beautifulsoup4 = "^4.9.3"
+jupyter = "^1.0.0"
+html5lib = "^1.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+flake8-pylint = "^0.1.1"
+pytest-flake8 = "^1.0.7"
+flake8-pie = "^0.6.1"
+ipython = "^7.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

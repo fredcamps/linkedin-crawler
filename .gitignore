@@ -1,0 +1,6 @@
+
+.dir-locals.el
+.ipynb_checkpoints
+.tool-versions
+*.log
+.envrc
